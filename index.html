@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabela de Classificação</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Tabela de classificação</h1>
+        <input type="url" id="imagemJogador" placeholder="URL da imagem">
+        <input type="text" id="nomeJogador" placeholder="Nome do jogador">
+        <button id="adc" onclick="adicionarJogador()">Adicionar Jogador</button>
+        <button id="zerar" onclick="zerarPontos()">Zerar Pontuação</button>
+        <button id="reiniciar" onclick="reiniciarJogo()">Reiniciar Jogo</button>
+        <table style="width: 100%">
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Nome</th>
+                    <th>Pontos</th>
+                    <th>Partidas</th>
+                    <th>Vitorias</th>
+                    <th>Empates</th>
+                    <th>Derrotas</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaJogadores">
+            </tbody>
+        </table>
+        <!-- <button onclick="finalizarJogo()">Finalizar Jogo</button> -->
+
+        <div id="msgErro"></div>
+        <script src="script.js"></script>
+    </body>
+
+</html>

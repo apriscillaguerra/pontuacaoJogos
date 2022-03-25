@@ -1,0 +1,117 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 400px;
+    background-image: url("http://www.meupositivo.com.br/doseujeito/wp-content/uploads/2019/11/jogos-gratis-navegador-computador-sem-instalar.jpg");
+    background-color: #111;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+table {
+    border: 3px solid #572100;
+    border-collapse: collapse;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+h1 {
+    padding-top: 40px;
+    color: #AA651D;
+    font-weight: 600;
+    font-size: 50px;
+    text-shadow: 1px 2px 2px #ffffff;
+}
+
+th,
+tr,
+td {
+    border: solid 3px #471b00;
+    background-color: #ca823e78;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 1px 2px 2px #572100;
+}
+
+td {
+    font-size: 25;
+}
+
+h3 {
+    font-family: "Roboto Mono", monospace;
+    font-size: xx-large;
+    color: #fff318;
+}
+
+.imgJogador {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+#nomeJogador, #imagemJogador {
+    font-family: "Roboto Mono", monospace;
+    border-radius: 25px;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    font-family: "Roboto Mono", monospace;
+    border-radius: 25px;
+    padding: 8px;
+    border: none;
+    outline: none;
+}
+
+#adc {
+    background-color: #e1aa38;
+    color: #ffffff;
+}
+
+#adc:hover {
+    background-color: #f5d18a;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#zerar {
+    background-color: #572100;
+    color: #ffffff;
+}
+
+#zerar:hover {
+    background-color: #AA651D;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#reiniciar {
+    background-color: #7fad54;
+    color: #ffffff
+}
+
+#reiniciar:hover {
+    background-color: #b4d396;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.acoes {
+    background-color: #572100;
+    color: #ffffff;
+    margin: 8px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.acoes:hover {
+    box-shadow: 0 8px 8px 0 #ffffff9c, 0 8px 15px 0 #ffffff9c;
+    transition: 0.5s;
+}

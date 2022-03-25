@@ -1,0 +1,8 @@
+Sugestões de alteração:
+
+-Escolher limite de partidas antes do jogo começar.
+O jogador não pode passar do número estabelecido de partidas. E quando todos completarem as partidas, aponta o vencedor.
+Poderia aparecer o vencedor e tocar um som de vitoria.
+E o perdedor, com de derrota.
+
+-Ter opção de escolher jogadores pré-selecionados.
